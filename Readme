@@ -1,0 +1,106 @@
+/project-folder
+   /images
+   /styles
+      - style.css
+   /scripts
+      - main.js
+   index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Knowledge Portal</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Welcome to the Temple Knowledge Portal</h1>
+        <p>Scan the QR codes to learn about the deities, rituals, and the science behind temple architecture.</p>
+    </header>
+
+    <!-- Deity Information Section -->
+    <section id="deities">
+        <h2>Deities Information</h2>
+        <p>Learn about the deities of this temple and their significance in Hinduism.</p>
+        <div class="deity-card">
+            <img src="images/lord_krishna.jpg" alt="Lord Krishna">
+            <h3>Lord Krishna</h3>
+            <p>Lord Krishna is revered as the God of compassion, tenderness, and love in Hinduism. His teachings in the Bhagavad Gita provide deep insights into the way of life.</p>
+        </div>
+    </section>
+
+    <!-- Science Behind Rituals Section -->
+    <section id="rituals">
+        <h2>Science Behind Rituals</h2>
+        <p>Explore the reasoning and science behind various rituals performed in the temple.</p>
+        <div class="ritual-card">
+            <h3>Lighting of the Lamp</h3>
+            <p>Lighting a lamp symbolizes dispelling darkness (ignorance) and inviting divine light (knowledge). Scientifically, it is believed that lighting lamps can also purify the air due to the ghee or oil used.</p>
+        </div>
+    </section>
+
+    <!-- QR Code Section -->
+    <section id="qr-code">
+        <h2>Scan the QR Code</h2>
+        <p>Use the camera of your smartphone to scan the QR code below to get more information about temple rituals.</p>
+        <img src="images/sample_qr_code.png" alt="QR Code">
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Temple Knowledge Portal</p>
+    </footer>
+
+</body>
+</html>
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #282828;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Georgia', serif;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.deity-card, .ritual-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+footer {
+    background-color: #282828;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
