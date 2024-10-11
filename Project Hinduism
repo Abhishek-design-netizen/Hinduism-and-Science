@@ -1,0 +1,6 @@
+/temple-website
+   /images      --> This folder stores all your images.
+   /css         --> This folder stores your CSS styling files.
+   index.html   --> This is the main homepage of your website.
+   about.html   --> This is the page about the temple or deities.
+   rituals.html --> This is the page explaining religious acts.
